@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let a = 3
+let b = 4
+
+func add(n1: Int, n2: Int) -&gt; Int{
+    return n1 + n2
+}
+
+func substract(n1: Int, n2: Int) -&gt; Int{
+    return n1 - n2
+}
+
+func multiply(n1: Int, n2: Int) -&gt; Int{
+    return n1 * n2
+}
+
+func divide(n1: Float, n2: Float) -&gt; Float{
+    return n1 / n2
+}
+
+print("\(a) + \(b) = \(add(n1: a, n2: b))")
+print("\(a) - \(b) = \(substract(n1: a, n2: b))")
+print("\(a) * \(b) = \(multiply(n1: a, n2: b))")
+print("\(a) / \(b) = \(divide(n1: Float(a), n2: Float(b)))")
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 474}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let myNumber = 30
+
+func checkDivisible(number: Int) -&gt; String {
+    if number % 6 == 0 &amp;&amp; number % 5 == 0{
+        return "\(number) is divisible by both 5 and 6"
+    }
+    else if number % 6 == 0 || number % 5 == 0 {
+        return "\(number) is divisible by 5 or 6, but not both"
+    }
+    else {
+        return "\(number) is neither divisible"
+    }
+    
+}
+
+let result = checkDivisible(number: myNumber)
+print(result)
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 421}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
